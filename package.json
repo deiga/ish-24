@@ -20,7 +20,9 @@
     "lodash": "latest",
     "q": "latest",
     "debug": "latest",
-    "redis": "^0.10.1"
+    "redis": "^0.10.1",
+    "trello": "^0.1.0",
+    "moment": "^2.6.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
