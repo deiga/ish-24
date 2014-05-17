@@ -15,11 +15,12 @@
     "type": "git",
     "url": "https://github.com/deiga/ish-24"
   },
-  "keywords":[],
+  "keywords": [],
   "dependencies": {
     "lodash": "latest",
     "q": "latest",
-    "debug": "latest"
+    "debug": "latest",
+    "redis": "^0.10.1"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
