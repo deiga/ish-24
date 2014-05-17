@@ -1,0 +1,38 @@
+{
+  "name": "ish-24",
+  "description": "Bugzilla Trello integration",
+  "version": "0.0.0",
+  "homepage": "https://github.com/deiga/ish-24",
+  "bugs": "https://github.com/deiga/ish-24/issues",
+  "license": "MIT",
+  "main": "lib/ish-24.js",
+  "author": {
+    "name": "Timo Sand",
+    "email": "timo.j.sand@gmail.com",
+    "url": "https://github.com/deiga"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deiga/ish-24"
+  },
+  "keywords":[],
+  "dependencies": {
+    "lodash": "latest",
+    "q": "latest",
+    "debug": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-jscs": "^0.4.2",
+    "gulp-jshint": "^1.5.5",
+    "gulp-mocha": "^0.4.1",
+    "gulp-istanbul": "^0.1.1",
+    "coveralls": "^2.10.0",
+    "should": "^3.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
