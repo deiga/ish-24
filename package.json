@@ -23,7 +23,10 @@
     "redis": "^0.10.1",
     "trello": "^0.1.0",
     "moment": "^2.6.0",
-    "after": "^0.8.1"
+    "after": "^0.8.1",
+    "redis-url": "^0.2.0",
+    "morgan": "^1.0.1",
+    "express": "^4.2.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
@@ -37,6 +40,7 @@
   },
   "scripts": {
     "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node server.js"
   }
 }
