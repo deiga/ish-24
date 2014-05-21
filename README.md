@@ -1,22 +1,11 @@
 # ish-24 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
-The best module ever.
-
-
-## Install
-
-```bash
-$ npm install --save ish-24
-```
-
+Bugzilla and Trello integration
 
 ## Usage
 
-```javascript
-var ish24 = require('ish-24');
-ish24.awesome(); // "awesome"
-```
+_(Coming soon)_
 
 ## API
 
@@ -39,8 +28,8 @@ Copyright (c) 2014 Timo Sand. Licensed under the MIT license.
 
 
 
-[npm-url]: https://npmjs.org/package/ish-24
-[npm-image]: https://badge.fury.io/js/ish-24.svg
+<!-- [npm-url]: https://npmjs.org/package/ish-24 -->
+<!-- [npm-image]: https://badge.fury.io/js/ish-24.svg -->
 [travis-url]: https://travis-ci.org/deiga/ish-24
 [travis-image]: https://travis-ci.org/deiga/ish-24.svg?branch=master
 [daviddm-url]: https://david-dm.org/deiga/ish-24.svg?theme=shields.io
