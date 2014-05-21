@@ -4,3 +4,4 @@ node_js:
 after_script:
   - ls -lr .
   - npm run coveralls
+  - ls -lr .
