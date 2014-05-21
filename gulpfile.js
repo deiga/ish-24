@@ -35,7 +35,7 @@ gulp.task('istanbul', function (cb) {
 gulp.task('coveralls', function() {
   gulp.src('test/coverage/**/lcov.info')
   .pipe(coveralls());
-})
+});
 
 gulp.task('watch', function () {
   gulp.run('test');
