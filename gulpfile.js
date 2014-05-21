@@ -6,7 +6,6 @@ var jscs = require('gulp-jscs');
 var istanbul = require('gulp-istanbul');
 var mocha  = require('gulp-mocha');
 
-
 var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
   watch: ['./gulpfile.js', './lib/**', './test/**/*.js', '!test/{temp,temp/**}'],
@@ -39,4 +38,3 @@ gulp.task('watch', function () {
 
 gulp.task('default', ['test']);
 gulp.task('test', ['lint', 'istanbul']);
-
