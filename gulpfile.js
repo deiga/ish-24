@@ -10,7 +10,7 @@ var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
   watch: ['./gulpfile.js', './lib/**', './test/**/*.js', '!test/{temp,temp/**}'],
   tests: ['./test/**/*.js', '!test/{temp,temp/**}'],
-  source: ['./lib/*.js']
+  source: ['./lib/*.js', 'server.js']
 };
 
 gulp.task('lint', function () {
@@ -23,7 +23,7 @@ gulp.task('lint', function () {
 gulp.task('istanbul', function (cb) {
   gulp.src(paths.source)
     .pipe(istanbul()) // Covering files
-    .on('end', function () {
+    .on('finish', function () {
       gulp.src(paths.tests, {cwd: __dirname})
         .pipe(mocha())
         .pipe(istanbul.writeReports()) // Creating the reports after tests runned
