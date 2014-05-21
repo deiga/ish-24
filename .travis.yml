@@ -1,7 +1,5 @@
 language: node_js
 node_js:
   - '0.10'
-after_script:
-  - ls -lr .
+script:
   - npm run coveralls
-  - ls -lr .
