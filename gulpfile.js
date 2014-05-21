@@ -5,6 +5,7 @@ var jshint = require('gulp-jshint');
 var jscs = require('gulp-jscs');
 var istanbul = require('gulp-istanbul');
 var mocha  = require('gulp-mocha');
+var coveralls = require('gulp-coveralls');
 
 var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
@@ -30,6 +31,11 @@ gulp.task('istanbul', function (cb) {
         .on('end', cb);
     });
 });
+
+gulp.task('coveralls', function() {
+  gulp.src('test/coverage/**/lcov.info')
+  .pipe(coveralls());
+})
 
 gulp.task('watch', function () {
   gulp.run('test');
