@@ -17,16 +17,17 @@
   },
   "keywords": [],
   "dependencies": {
-    "lodash": "latest",
-    "q": "latest",
-    "debug": "latest",
-    "redis": "^0.10.1",
-    "trello": "^0.1.0",
-    "moment": "^2.6.0",
     "after": "^0.8.1",
-    "redis-url": "^0.2.0",
+    "debug": "latest",
+    "express": "^4.2.0",
+    "lodash": "latest",
+    "moment": "^2.6.0",
     "morgan": "^1.0.1",
-    "express": "^4.2.0"
+    "q": "latest",
+    "redis": "^0.10.1",
+    "redis-url": "^0.2.0",
+    "trello": "^0.1.0",
+    "xmlrpc": "^1.2.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
