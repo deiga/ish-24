@@ -33,7 +33,7 @@ gulp.task('istanbul', function (cb) {
 });
 
 gulp.task('coveralls', function() {
-  gulp.src('test/coverage/**/lcov.info')
+  gulp.src('./coverage/**/lcov.info')
   .pipe(coveralls());
 });
 
@@ -43,4 +43,4 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['test']);
-gulp.task('test', ['lint', 'istanbul']);
+gulp.task('test', ['lint', 'istanbul', 'coveralls']);
