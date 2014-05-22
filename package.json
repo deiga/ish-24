@@ -24,7 +24,6 @@
     "moment": "^2.6.0",
     "morgan": "^1.0.1",
     "q": "latest",
-    "redis": "^0.10.1",
     "redis-url": "^0.2.0",
     "trello": "^0.1.0",
     "xmlrpc": "^1.2.0"
