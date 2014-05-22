@@ -32,7 +32,7 @@ gulp.task('istanbul', function (cb) {
     });
 });
 
-gulp.task('coveralls', ['test'], function() {
+gulp.task('coveralls', function() {
   return gulp.src('coverage/lcov.info')
     .pipe(coveralls());
 });
