@@ -1,4 +1,6 @@
 # ish-24 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/deiga/ish-24.svg)](https://greenkeeper.io/)
 <!--- 
 [![NPM version][npm-image]][npm-url] 
 -->
