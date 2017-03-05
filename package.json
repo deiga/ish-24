@@ -24,20 +24,20 @@
     "moment": "^2.6.0",
     "morgan": "^1.0.1",
     "q": "latest",
-    "redis-url": "^0.2.0",
-    "trello": "^0.1.0",
+    "redis-url": "^1.2.1",
+    "trello": "^0.7.0",
     "xmlrpc": "^1.2.0"
   },
   "devDependencies": {
     "coveralls": "^2.10.0",
     "gulp": "^3.6.2",
     "gulp-coveralls": "^0.1.2",
-    "gulp-istanbul": "^0.1.1",
-    "gulp-jscs": "^0.4.2",
-    "gulp-jshint": "^1.5.5",
-    "gulp-mocha": "^0.4.1",
-    "jshint-stylish": "^0.2.0",
-    "should": "^3.3.1"
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^4.0.1",
+    "jshint-stylish": "^2.2.1",
+    "should": "^11.2.0"
   },
   "scripts": {
     "test": "gulp test",
