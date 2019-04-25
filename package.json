@@ -29,7 +29,7 @@
     "xmlrpc": "^1.2.0"
   },
   "devDependencies": {
-    "coveralls": "^2.10.0",
+    "coveralls": "^3.0.3",
     "gulp": "^3.6.2",
     "gulp-coveralls": "^0.1.2",
     "gulp-istanbul": "^0.1.1",
