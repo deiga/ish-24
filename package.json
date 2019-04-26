@@ -25,7 +25,7 @@
     "morgan": "^1.0.1",
     "q": "latest",
     "redis-url": "^1.2.1",
-    "trello": "^0.1.0",
+    "trello": "^0.9.1",
     "xmlrpc": "^1.2.0"
   },
   "devDependencies": {
