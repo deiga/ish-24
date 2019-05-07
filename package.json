@@ -18,7 +18,6 @@
   "keywords": [],
   "dependencies": {
     "after": "^0.8.1",
-    "debug": "latest",
     "express": "^4.2.0",
     "lodash": "latest",
     "moment": "^2.6.0",
@@ -30,6 +29,8 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
+    "debug": "latest",
+    "del": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-coveralls": "^0.1.2",
     "gulp-istanbul": "^1.1.3",
