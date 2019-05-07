@@ -14,33 +14,38 @@ var paths = {
   source: ['./lib/*.js', 'server.js']
 };
 
-gulp.task('lint', function () {
+function lint() {
   return gulp.src(paths.lint)
     .pipe(jshint('.jshintrc'))
     .pipe(jscs())
     .pipe(jshint.reporter('jshint-stylish'));
-});
+}
 
-gulp.task('istanbul', function (cb) {
-  gulp.src(paths.source)
+function preTest() {
+  return gulp.src(paths.source)
     .pipe(istanbul()) // Covering files
-    .on('finish', function () {
-      gulp.src(paths.tests, {cwd: __dirname})
-        .pipe(mocha())
-        .pipe(istanbul.writeReports()) // Creating the reports after tests runned
-        .on('end', cb);
-    });
-});
+    .pipe(istanbul.hookRequire());
+};
 
-gulp.task('coveralls', function() {
-  return gulp.src('coverage/lcov.info')
+function test() {
+  return gulp.src(paths.source)
+    .pipe(preTest())
+    .pipe(mocha())
+    // Creating the reports after tests ran
+    .pipe(istanbul.writeReports())
+}
+
+function coverage() {
+  return gulp.src('coverage/**/lcov.info')
     .pipe(coveralls());
-});
+};
 
-gulp.task('watch', function () {
-  gulp.run('test');
-  gulp.watch(paths.watch, ['test']);
-});
+function watch() {
+  gulp.watch(paths.watch, test);
+};
 
-gulp.task('default', ['test']);
-gulp.task('test', ['lint', 'istanbul', 'coveralls']);
+var build = gulp.parallel(test, lint, coverage);
+
+module.exports.build = build
+module.exports.watch = watch
+module.exports.default = build

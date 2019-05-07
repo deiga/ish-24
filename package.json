@@ -40,7 +40,7 @@
     "should": "^13.2.3"
   },
   "scripts": {
-    "test": "gulp test",
+    "test": "gulp build",
     "start": "node server.js"
   }
 }
