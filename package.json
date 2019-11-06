@@ -37,7 +37,7 @@
     "gulp-jscs": "4.1.0",
     "gulp-jshint": "2.1.0",
     "gulp-mocha": "6.0.0",
-    "jshint": "2.10.2",
+    "jshint": "2.10.3",
     "jshint-stylish": "2.2.1",
     "should": "13.2.3"
   },
