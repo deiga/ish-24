@@ -28,7 +28,7 @@
     "xmlrpc": "1.3.2"
   },
   "devDependencies": {
-    "coveralls": "3.0.7",
+    "coveralls": "3.0.8",
     "debug": "latest",
     "del": "5.1.0",
     "gulp": "4.0.2",
