@@ -20,7 +20,7 @@
     "after": "0.8.2",
     "express": "4.17.1",
     "lodash": "latest",
-    "moment": "2.25.1",
+    "moment": "2.25.2",
     "morgan": "1.10.0",
     "q": "latest",
     "redis-url": "1.2.1",
