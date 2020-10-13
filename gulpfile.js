@@ -50,7 +50,7 @@ function watch() {
   gulp.watch(paths.watch, test);
 }
 
-var build = gulp.series(clean, gulp.parallel(test, lint, coverage));
+var build = gulp.series(clean, gulp.parallel(lint));
 
 module.exports.build = build;
 module.exports.watch = watch;
