@@ -18,9 +18,9 @@
   "keywords": [],
   "dependencies": {
     "after": "0.8.2",
-    "express": "4.17.3",
+    "express": "4.18.1",
     "lodash": "latest",
-    "moment": "2.29.2",
+    "moment": "2.29.3",
     "morgan": "1.10.0",
     "q": "latest",
     "redis-url": "1.2.1",
