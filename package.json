@@ -20,7 +20,7 @@
     "after": "0.8.2",
     "express": "4.18.1",
     "lodash": "latest",
-    "moment": "2.29.3",
+    "moment": "2.29.4",
     "morgan": "1.10.0",
     "q": "latest",
     "redis-url": "1.2.1",
@@ -37,7 +37,7 @@
     "gulp-jscs": "4.1.0",
     "gulp-jshint": "2.1.0",
     "gulp-mocha": "8.0.0",
-    "jshint": "2.13.4",
+    "jshint": "2.13.5",
     "jshint-stylish": "2.2.1",
     "should": "13.2.3"
   },
