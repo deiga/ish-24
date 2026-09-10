@@ -21,7 +21,7 @@
     "express": "4.21.0",
     "lodash": "latest",
     "moment": "2.30.1",
-    "morgan": "1.10.0",
+    "morgan": "1.12.0",
     "q": "latest",
     "redis-url": "1.2.1",
     "trello": "0.11.0",
